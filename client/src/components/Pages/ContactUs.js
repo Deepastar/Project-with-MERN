@@ -1,8 +1,8 @@
 import React from "react";
 
-const AboutUs = () => (
+const ContactUs = () => (
     <div className="text-center mt-5">
-        <h1>About Us</h1>
+        <h1>Contact Us</h1>
         <div>
             <strong>Our Mission</strong>
             <p>
@@ -11,4 +11,4 @@ const AboutUs = () => (
         </div>
     </div>
 );
-export default AboutUs;
+export default ContactUs;
