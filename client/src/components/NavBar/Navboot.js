@@ -22,8 +22,8 @@ const Navboot = () => (
                 </Link>
                 </li>
                 <li className="nav-link mr-4 ml-4">
-                <Link to="/contactUs" className={window.location.pathname === "/contactUs" ? "nav-link active": "nav-link"}>
-                    Contact Us
+                <Link to="/contact" className={window.location.pathname === "/contact" ? "nav-link active": "nav-link"}>
+                    Contact
                 </Link>
                 </li>
             </ul>
