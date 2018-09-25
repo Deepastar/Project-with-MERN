@@ -26,6 +26,6 @@ h3{
     /* color: rgb(240, 245, 234); */
     color: yellow;
 }
-.img-body{
+#image{
     background-image: url("./Images/new1.png");
 }

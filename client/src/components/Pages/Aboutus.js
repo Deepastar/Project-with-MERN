@@ -4,34 +4,37 @@ import "../Pages/CSS/Aboutus.css";
 
 const AboutUs = () => (
     <div className="container-fluid">
-        <div className="row1">
+        <div className="row">
+            <div className="row1">
+                <div className="row1 mt-3">
+                    <div className="card col-md-6">
 
-            <div className="row1 mt-3">
-                <div className="card col-md-6">
-
-                    <div className="card-body text-center">
-                        <h2>About Us</h2>
-                        <p>
-                            (Name) is a startup web based technology application to deliver car wash services directly to customer’s location.
-                          Customers can make appointment with us and get services through Online Appointment
+                        <div className="card-body text-center">
+                            <h2>About Us</h2>
+                            <p>
+                                (Name) is a startup web based technology application to deliver car wash services directly to customer’s location.
+                              Customers can make appointment with us and get services through Online Appointment
                     </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row2 mt-5">
+                    <div className="card col-md-6" id="mission">
+
+                        <div className="card-body text-center ">
+                            <h2>Our Mission</h2>
+                            <p>
+                                To save our customers as much time as possible by providing the most convenient car wash services available.
+                    </p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div className="row2 mt-5">
-                <div className="card col-md-6" id="mission">
-
-                    <div className="card-body text-center ">
-                        <h2>Our Mission</h2>
-                        <p>
-                            To save our customers as much time as possible by providing the most convenient car wash services available.
-                    </p>
-                    </div>
-                </div>
+            <div className="imageCol col-md-6" id="image1">
+              
+                <img src="new1.png" alt="newim"></img>
             </div>
-
-
         </div>
 
         <div className="quote mt-5">
