@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navboot.css";
 
 const Navboot = () => (
     <div>
-        <nav className="navbar navbar-expand-lg bg-warning">
+        <nav className="navbar navbar-expand-lg" id="navId">
             <ul className="navbar-nav">
                 <li className="nav-link mr-4 ml-4">
                 <Link to="/aboutus" className={window.location.pathname === "/aboutus" ? "nav-link active": "nav-link"}>
-                    About Us
+                    About
                 </Link>
                 </li>
                 <li className="nav-link mr-4 ml-4">

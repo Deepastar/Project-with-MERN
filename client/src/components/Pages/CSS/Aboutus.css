@@ -1,8 +1,31 @@
-.card-body{
-    background-color: pink;
+.card{
+    /* background-color: pink; */
+    background-color: rgb(233, 192, 89);
+    /* background-color: rgb(238, 200, 104); */
     color: black;
 }
 
-h4{
-    font-family: 'Marck Script', cursive;
+h3{
+    /* font-family: 'Marck Script', cursive; */
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'Patrick Hand', cursive;
+}
+#icon{
+    color: green;
+}
+#quote{
+    size: 0.5rem;
+    color: green;
+}
+#mission{
+    margin-left: 5;
+}
+.jumbotron{
+    background-image: url("./Images/Untitled.png");
+    /* background-repeat:no-repeat; */
+    /* color: rgb(240, 245, 234); */
+    color: yellow;
+}
+.img-body{
+    background-image: url("./Images/new1.png");
 }
