@@ -1,7 +1,7 @@
 import React from "react";
 // import NavApi from "./util/NavApi";
 import Navboot from "./components/NavBar/Navboot";
-import AboutUs from "./components/Pages/AboutUs";
+import AboutUs from "./components/Pages/Aboutus";
 import ServicePage from "./components/Pages/ServicePage";
 import ContactUs from "./components/Pages/ContactUs"
 import Appointment from "./components/Pages/Appointment"
