@@ -17,9 +17,9 @@ h3{
     size: 0.5rem;
     color: green;
 }
-#mission{
+/* #mission{
     margin-left: 5;
-}
+} */
 .jumbotron{
     background-image: url("./Images/Untitled.png");
     /* background-repeat:no-repeat; */
