@@ -21,10 +21,16 @@ h3{
     margin-left: 5;
 } */
 .jumbotron{
-    background-image: url("./Images/Untitled.png");
+    background-image: url("./Images/Newone.png");
     /* background-repeat:no-repeat; */
-    /* color: rgb(240, 245, 234); */
-    color: yellow;
+    /* color: rgba(240, 109, 62, 0.952); */
+    /* color: rgb(226, 201, 138); */
+    color: rgba(178, 238, 178, 0.911);
+    /* color: rgb(120, 184, 209); */
+    /* font-family: 'Marck Script', cursive; */
+    font-family: 'Notable', sans-serif;
+    /* font-family: 'Monoton', cursive; */
+
 }
 #image{
     background-image: url("./Images/new1.png");
