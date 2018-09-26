@@ -1,5 +1,5 @@
 import React from "react";
-import "../Pages/CSS/Aboutus.css";
+import "./CSS/Aboutus.css";
 
 
 const AboutUs = () => (
@@ -32,44 +32,43 @@ const AboutUs = () => (
                 </div>
             </div>
             <div className="imageCol col-md-6" id="image1">
-              
-                <img src="new1.png" alt="newim"></img>
+                <img src="./Images/img4.png" alt="newim"></img>
             </div>
         </div>
 
         <div className="quote mt-5">
-            <i class="fas fa-quote-left fa-xs" id="quote"></i>
+            <i className="fas fa-quote-left fa-xs" id="quote"></i>
             <h3>
                 We believe in excellent customer service, outstanding quality and well-crafted software for good user interface
             </h3>
-            <i class="fas fa-quote-right fa-xs" id="quote"></i>
+            <i className="fas fa-quote-right fa-xs" id="quote"></i>
         </div>
         <div className="card mt-5">
             <h1>Our Values</h1>
 
-            <div class="row mt-3 mb-3 text-center">
-                <div class="col-sm-3">
+            <div className="row mt-3 mb-3 text-center">
+                <div className="col-sm-3">
                     <h5>Quality first</h5>
-                    <i class="fas fa-award fa-3x" id="icon"></i>
+                    <i className="fas fa-award fa-3x" id="icon"></i>
                 </div>
-                <div class="col-sm-3">
+                <div className="col-sm-3">
                     <h5>Honesty</h5>
-                    <i class="fa fa-balance-scale fa-3x" id="icon"></i>
+                    <i className="fa fa-balance-scale fa-3x" id="icon"></i>
                 </div>
-                <div class="col-sm-3">
+                <div className="col-sm-3">
                     <h5>Fair price</h5>
-                    <i class="fa fa-tags fa-3x" id="icon"></i>
+                    <i className="fa fa-tags fa-3x" id="icon"></i>
                 </div>
-                <div class="col-sm-3">
+                <div className="col-sm-3">
                     <h5>Customer Satisfaction</h5>
-                    <i class="fa fa fa-star fa-3x" id="icon"></i>
+                    <i className="fa fa fa-star fa-3x" id="icon"></i>
 
                 </div>
 
-                {/* <div class="col-sm-3 text-center">
+                <div className="col-sm-3 text-center">
                     <h5>Reliability</h5>
-                     <i class="fas fa-handshake fa-3x"></i>
-                </div> */}
+                     <i className="fas fa-handshake fa-3x"></i>
+                </div>
             </div>
         </div>
     </div>
