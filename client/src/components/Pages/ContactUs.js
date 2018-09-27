@@ -8,26 +8,25 @@ const ContactUs = () => (
 Leave us a message:
 </p> */}
 <form>
-<div class="form-group">
-<label for="nameInput">Full Name</label>
-<input type="name" class="form-control" id="nameForm" placeholder="Enter your Name"></input>
-</div>
-
-<div class="form-group">
-<label for="emailInput">Email Address</label>
-<input type="email" class="form-control" id="emailForm" placeholder="Enter your Email ID"></input>
-<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+<div className="form-group">
+<label>Full Name</label>
+<input type="name" className="form-control" id="nameForm" placeholder="Enter your Name"></input>
 </div>
 
 <div className="form-group">
-<label for="messageInput">Message:</label>
-{/* <input type="message" class="form-control" id="emailForm" placeholder="Enter your Email ID"></input> */}
-<div className="comment mt-3">
-<textarea rows="4" cols="50" name="comment" form="usrform">
-Enter text here...</textarea>
-</div>
+<label>Email Address</label>
+<input type="email" className="form-control" id="emailForm" placeholder="Enter your Email ID"></input>
+<small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
 </div>
 
+<div className="form-group">
+<label>Message:</label>
+{/* <input type="message" className="form-control" id="emailForm" placeholder="Enter your Email ID"></input> */}
+<div className="comment mt-3">
+<textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+</div>
+</div>
+<button type="submit" className="btn btn-primary">Submit</button>
 
 </form>
 
