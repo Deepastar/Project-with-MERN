@@ -8,8 +8,9 @@ import Appointment from "./components/Pages/Appointment"
 import Auth from "./components/Pages/Auth"
 import Jumbotron from "./components/Jumbotron/Jumbotron"
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import 'mdbreact/dist/css/mdb.css';
+// import 'bootstrap-css-only/css/bootstrap.min.css';
 
-// import Footer from "./components/Footer";
 import FooterPage from "./components/Footer/Footer";
 
 
@@ -28,7 +29,6 @@ const App = () => (
                 
             </div>
         </Router>  
-
         <FooterPage /> 
     </div>
 );

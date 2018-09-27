@@ -1,39 +1,28 @@
 .card{
-    /* background-color: pink; */
+    
     background-color: rgb(233, 192, 89);
-    /* background-color: rgb(238, 200, 104); */
+    
     color: black;
 }
 
 h3{
-    /* font-family: 'Marck Script', cursive; */
-    /* font-family: 'Courgette', cursive; */
+    
     font-family: 'Patrick Hand', cursive;
 }
 #icon{
     color: green;
 }
 #quote{
-    /* size: 0.5rem; */
+    
     color: green;
 }
-/* #mission{
-    margin-left: 5;
-} */
+
 .jumbotron{
     background-image: url("./Images/Newone.png");
-    /* background-repeat:no-repeat; */
-    /* color: rgba(240, 109, 62, 0.952); */
-    
-    /* color: rgb(226, 201, 138); */
-
     color: rgba(178, 238, 178, 0.911);
-    /* color: rgb(120, 184, 209); */
-    /* font-family: 'Marck Script', cursive; */
     font-family: 'Notable', sans-serif;
-    /* font-family: 'Monoton', cursive; */
 
 }
-/* #image{
-    background-image: url("./Images/new1.png");
-} */
+
+
+

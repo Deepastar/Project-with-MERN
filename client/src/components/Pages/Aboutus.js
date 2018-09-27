@@ -2,6 +2,7 @@ import React from "react";
 import "./CSS/Aboutus.css";
 
 
+
 const AboutUs = () => (
     <div className="container-fluid">
         <div className="row" id="rId">
