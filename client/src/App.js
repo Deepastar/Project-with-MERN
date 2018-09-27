@@ -9,6 +9,9 @@ import Auth from "./components/Pages/Auth"
 import Jumbotron from "./components/Jumbotron/Jumbotron"
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+// import Footer from "./components/Footer";
+import FooterPage from "./components/Footer/Footer";
+
 
 
 const App = () => (
@@ -22,8 +25,11 @@ const App = () => (
                 <Route exact path="/contactUs" component={ContactUs} />
                 <Route exact path="/appt" component={Appointment} />
                 <Route exact path="/auth" component={Auth} />
+                
             </div>
-        </Router>   
+        </Router>  
+
+        <FooterPage /> 
     </div>
 );
 

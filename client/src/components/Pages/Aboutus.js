@@ -29,46 +29,65 @@ const AboutUs = () => (
             </div>
 
             <div className="col-md-6">
-                <img className="image-fluid" src="./Images/new3.png" alt="newim"></img>
-            </div>       
-            
-        </div>
+                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval="2000">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img className="d-block w-100" src="./Images/Img1.png" alt="First slide"></img>
+                        </div>
+                        <div className="carousel-item">
+                            <img className="d-block w-100" src="./Images/Img2.png" alt="Second slide"></img>
+                        </div>
+                        <div className="carousel-item">
+                            <img className="d-block w-100" src="./Images/Img3.png" alt="Third slide"></img>
+                        </div>
 
-        <div className="quote mt-5">
-            <i className="fas fa-quote-left fa-xs" id="quote"></i>
-            <h3>
-                We believe in excellent customer service, outstanding quality and well-crafted software for good user interface
-            </h3>
-            <i className="fas fa-quote-right fa-xs" id="quote"></i>
-        </div>
-        <div className="card mt-5">
-            <h1>Our Values</h1>
-
-            <div className="row mt-3 mb-3 text-center">
-                <div className="col">
-                    <h5>Quality first</h5>
-                    <i className="fas fa-award fa-3x" id="icon"></i>
-                </div>
-                <div className="col">
-                    <h5>Honesty</h5>
-                    <i className="fa fa-balance-scale fa-3x" id="icon"></i>
-                </div>
-                <div className="col">
-                    <h5>Fair price</h5>
-                    <i className="fa fa-tag mt-1 fa-3x" id="icon"></i>
-                </div>
-                <div className="col">
-                    <h5>Customer Satisfaction</h5>
-                    <i className="fa fa fa-star fa-3x" id="icon"></i>
-
-                </div>
-
-                <div className="col text-center">
-                    <h5>Reliability</h5>
-                     <i className="fas fa-handshake fa-3x" id="icon"></i>
+                        <div className="carousel-item">
+                            <img className="d-block w-100" src="./Images/Img4.png" alt="Third slide"></img>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div className="quote mt-5">
+                <i className="fas fa-quote-left fa-xs" id="quote"></i>
+                <h3>
+                    We believe in excellent customer service, outstanding quality and well-crafted software for good user interface
+                </h3>
+                <i className="fas fa-quote-right fa-xs" id="quote"></i>
+            </div>
+           
+           
+           
+            <div className="card mt-5">
+                <h1>Our Values</h1>
+                <div className="row mt-3 mb-3 text-center">
+                    <div className="col">
+                        <h5>Quality first</h5>
+                        <i className="fas fa-award fa-3x" id="icon"></i>
+                    </div>
+                    <div className="col">
+                        <h5>Honesty</h5>
+                        <i className="fa fa-balance-scale fa-3x" id="icon"></i>
+                    </div>
+                    <div className="col">
+                        <h5>Fair price</h5>
+                        <i className="fa fa-tag mt-1 fa-3x" id="icon"></i>
+                    </div>
+                    <div className="col">
+                        <h5>Customer Satisfaction</h5>
+                        <i className="fa fa fa-star fa-3x" id="icon"></i>
+
+                    </div>
+
+                    <div className="col text-center">
+                        <h5>Reliability</h5>
+                        <i className="fas fa-handshake fa-3x" id="icon"></i>
+                    </div>
+                </div>
+            </div>
+           
+        
     </div>
 );
 export default AboutUs;
