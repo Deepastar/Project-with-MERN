@@ -23,7 +23,7 @@ Leave us a message:
 <label>Message:</label>
 {/* <input type="message" className="form-control" id="emailForm" placeholder="Enter your Email ID"></input> */}
 <div className="comment mt-3">
-<textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+<textarea rows="4" cols="50" className="form-control" name="comment" form="usrform"></textarea>
 </div>
 </div>
 <button type="submit" className="btn btn-primary">Submit</button>

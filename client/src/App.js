@@ -3,14 +3,12 @@ import React from "react";
 import Navboot from "./components/NavBar/Navboot";
 import AboutUs from "./components/Pages/Aboutus";
 import ServicePage from "./components/Pages/ServicePage";
-import ContactUs from "./components/Pages/ContactUs"
-import Appointment from "./components/Pages/Appointment"
-import Auth from "./components/Pages/Auth"
-import Jumbotron from "./components/Jumbotron/Jumbotron"
+import ContactUs from "./components/Pages/ContactUs";
+import Appointment from "./components/Pages/Appointment";
+import Auth from "./components/Pages/Auth";
+import Jumbotron from "./components/Jumbotron/Jumbotron";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import 'mdbreact/dist/css/mdb.css';
-// import 'bootstrap-css-only/css/bootstrap.min.css';
-
+import Homepage from "./components/Pages/Homepage";
 import FooterPage from "./components/Footer/Footer";
 
 
@@ -18,9 +16,11 @@ import FooterPage from "./components/Footer/Footer";
 const App = () => (
     <div className="container-fluid">
         <Router>
+          
             <div>
                 <Navboot />
                 <Jumbotron> Car Wash Service </Jumbotron>
+                <Route exact path="/" component={Homepage}/>                
                 <Route exact path="/aboutus" component={AboutUs} />
                 <Route exact path="/servicePage" component={ServicePage} />
                 <Route exact path="/contactUs" component={ContactUs} />
